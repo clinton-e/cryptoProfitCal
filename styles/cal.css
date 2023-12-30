@@ -1,0 +1,70 @@
+.main-con{ 
+  margin-top: 20px;
+  display: grid;
+  align-content: center;
+  border: solid;
+  width: 500px;
+  margin: auto;
+  padding: 20px;
+  background-color: black;
+}
+.heading{
+  color: white;
+}
+.totaltokens-input-con, .totaltokens-buttons-con, .sellingprice-input,.display-totaltokens, .totalprofit-con, .total-profit-con{
+  margin-bottom: 15px;
+  font-size: 15px;
+  font-family: Arial;
+  display: flex;
+  column-gap: 10px;
+}
+
+.buy-price-input,.investment,.sellingprice-input{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 6px;
+  box-shadow: inset 4px 4px 3px gray;
+}
+
+.clear-button{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 7px;
+  padding-right: 7px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 1s;
+}
+.clear-button:hover{
+  background-color: Lightcoral;
+  color: black;
+}
+
+.total-buttons{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 7px;
+  padding-right: 7px;
+  background-color: green;
+  border:none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 1s;
+}
+.total-buttons:hover{
+  background-color:lightgreen;
+  color:black;
+}
+
+.display-totaltokens, .total-profit-con{
+  border: solid darkgrey;
+  display: flex;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}

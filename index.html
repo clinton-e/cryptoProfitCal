@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculate Crypto Profits</title>
+    <link rel="stylesheet" href="styles/cal.css">
+  </head>
+  <body>
+    <main>
+      <section>
+        
+        <div class="main-con">
+          <h2 class="heading">Crypto Calculator</h2>
+          <div class=totaltokens-input-con>
+            <input  placeholder="Enter buying price" id="token-price-input" class="buy-price-input">
+           <input  placeholder="Enter investment amount" id="investment-amount-input" class="investment">
+        </div>
+          
+          <div class="totaltokens-buttons-con">
+            <button id="caltotalunits-button" class="total-buttons">Get Total Units</button>
+            <button id="reset-input-button" class="clear-button">Clear</button>
+          </div>
+          
+            <div id="displayTotalunits" class="display-totaltokens">Total Tokens = 0</div>
+            
+            <input id="selling-price-input" placeholder="Enter Selling Price" class="sellingprice-input">
+          
+          <div class="totalprofit-con">
+            <button id="totalProfitButton" class="total-buttons">Get Total Profit</button>
+            <button id="reset-profit-button" class="clear-button">Clear</button>
+          </div>
+          
+          <div id="displayTotalprofit" class="total-profit-con">Total Profit = 0</div>
+          
+        </div>
+        
+      </section>
+    </main>
+    <script src="scripts/cal.js"></script>
+  </body>
+</html>
