@@ -3,14 +3,14 @@
   display: grid;
   align-content: center;
   border: solid;
-  width: 80%;
+  width: 50%;
   margin: 0 auto;
   padding: 20px;
   background-color: black;
 }
 @media screen and (max-width: 600px) {
   .main-con{
-    width: 90%;
+    width: 50%;
   }
 }
 
